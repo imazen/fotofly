@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Fotofly : A comprehensive C# library for reading and writing metadata stored in jpg photos using WPF and the Windows Imaging Component. Includes support for Windows Live Photo Gallery People Tags, GPS Coordinates and most EXIF, XMP &amp; IPTC properties." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Fotofly</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/taasss/fotofly">View on GitHub</a>
+
+          <h1 id="project_title">Fotofly</h1>
+          <h2 id="project_tagline">A comprehensive C# library for reading and writing metadata stored in jpg photos using WPF and the Windows Imaging Component. Includes support for Windows Live Photo Gallery People Tags, GPS Coordinates and most EXIF, XMP &amp; IPTC properties.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/taasss/fotofly/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/taasss/fotofly/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><strong>Fotofly</strong> - A comprehensive C# library for reading and writing metadata stored in jpg photos using WPF and the Windows Imaging Component. Includes support for Windows Live Photo Gallery People Tags, GPS Coordinates and most EXIF, XMP &amp; IPTC properties. Also includes code Geotagging photos.</p>
+
+<p>The project is made up of three sets of classes:</p>
+
+<ul>
+<li>
+<strong>JpgPhoto</strong> which represents a jpg photo and gives you various controlled ways of working with metadata, including reading, writing and comparing. JpgPhoto has a number of safe guards built in to prevent unneccesary changes to the underlying file metadata. Instead of giving raw access to the properties, only properties defined in IPhotoMetadata will ever be written to the file.</li>
+<li>
+<strong>WpfMetadata</strong> which provides underlying access to photo metadata using WPF and WIC.</li>
+<li>
+<strong>Geotagging</strong> which provides a means of doing forward and reverse geotagging using Gps Tracks, Bing Maps and Google Maps.</li>
+</ul><p>To support working with metadata there are classes to represent Addresses, People, Rationals, GpsCoordinates, Tags and XmpRegions. In addition there classes that provide a comprehensive list of all the XMP, Iptc and Exif Queries needed.</p>
+
+<p>The source code consists of three Visual Studio 2008 projects: The main FotoFly project, an example project that demonstrates how to use the various classes\methods and a Unit Test project. The download contains the fotofly DLL.</p>
+
+<p>There are a series of postings on my blog that provide more details on using FotoFly <a href="http://www.dustyfish.com/fotofly">http://www.dustyfish.com/fotofly</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Fotofly maintained by <a href="https://github.com/taasss">taasss</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
